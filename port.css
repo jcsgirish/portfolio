@@ -31,12 +31,12 @@ body{
 }
 .info div a {
   
-    color: #ffffff;
+    /* color: #ffffff; */
     font-size: medium;
     font-family: 'Protest Revolution', sans-serif;
-    animation: neon 0.1s ease-out infinite ; /* Adjust animation duration and timing as needed */
+    /* animation: neon 0.1s ease-out infinite ; Adjust animation duration and timing as needed */
 }
-
+/* 
 @keyframes neon {
     from {
         text-shadow:  0 0 20px #d1bd4d, 0 0 20px #d1bd4d, 0 0 20px #d1bd4d, 0 0 20px #d1bd4d, 0 0 20px #d1bd4d;
@@ -44,10 +44,10 @@ body{
     to {
         text-shadow: 0 0 40px #ffe600, 0 0 90px #ffe600, 0 0 90px #ffe600, 0 0 90px #ffe600, 0 0 90px #ffe600;
     }
-}
+} */
 
 
-
+/* 
 @keyframes fade {
     from {
       opacity: 0;
@@ -55,7 +55,7 @@ body{
     to {
       opacity: 1;
     }
-  }
+  } */
 
 .name{
     padding: 10px;
