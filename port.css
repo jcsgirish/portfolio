@@ -28,10 +28,10 @@ body{
     display: flex;
     position: absolute;
     right: 1px;
-}
+} 
 .info div a {
   
-    /* color: #ffffff; */
+     color: #ffffff; 
     font-size: medium;
     font-family: 'Protest Revolution', sans-serif;
     /* animation: neon 0.1s ease-out infinite ; Adjust animation duration and timing as needed */
@@ -67,11 +67,11 @@ body{
     text-decoration: none;
     color: white;
 }
-.info div:hover{
+/* .info div:hover{
     background-color: rgb(255, 255, 255);
     color: white;
     border-radius: 4px;
-}
+} */
 #check{
     display: none;
 }
