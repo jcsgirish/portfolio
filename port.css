@@ -365,8 +365,8 @@ body{
     align-items: center;
     flex-direction: column;
     padding: 30px;
-    /* border: 2px solid white;
-    border-radius: 5px; */
+     border: 2px solid white;
+    border-radius: 5px; 
     margin: 20px;
 }
 .probox i{
