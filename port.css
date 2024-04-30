@@ -352,13 +352,15 @@ body{
     color: #fed700;
     font: 35px;
 }
-.procont{
+/* .procont{
     width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-}
+    justify-items: center;
+
+} */
 .probox{
     width: 300px;
     display: flex;
@@ -390,10 +392,11 @@ body{
 .link{
     display: flex;
     justify-content: space-around;
+    justify-content: center;
     margin-top: 30px;
 }
 .link button{
-    width: 70px;
+    width: 50px;
     height: 35px;
     background-color:#fed700;
     border: 0;
