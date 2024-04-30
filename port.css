@@ -17,6 +17,7 @@ body{
     position: fixed;
     top: 0;
     z-index: 1000;
+
 }
 .info div{
     margin: 10px;
@@ -28,9 +29,17 @@ body{
     display: flex;
     position: absolute;
     right: 1px;
+
+
 } 
+.info div a:hover {
+    background-color: #fed700;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+
+}
 .info div a {
-  
+    text-decoration: none;
      color: #ffffff; 
     font-size: medium;
     font-family: 'Protest Revolution', sans-serif;
@@ -302,9 +311,13 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
+  
 }
+
+
 .sklcont{
     width: 85%;
+    text-decoration: none;
 }
 .skls{
     display: flex;
