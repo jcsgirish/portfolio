@@ -1,8 +1,12 @@
 body{
     margin: 0;
     padding:0;
-    background-color: #000000;
+    background-color: #1b1818;
     color: white;
+}
+.githublogo{
+    margin-left: 1rem;
+    display: inline-block;
 }
 .nav
 {
@@ -29,18 +33,20 @@ body{
     display: flex;
     position: absolute;
     right: 1px;
-
-
+    margin-right: 10px;
+    color: #fed700;
 } 
 .info div a:hover {
-    background-color: #fed700;
+    background-color: #ffffff;
     padding: 0.5rem;
     border-radius: 0.5rem;
+   
 
 }
 .info div a {
+    font-weight:bolder;
     text-decoration: none;
-     color: #ffffff; 
+    color: #928a5b;
     font-size: medium;
     font-family: 'Protest Revolution', sans-serif;
     /* animation: neon 0.1s ease-out infinite ; Adjust animation duration and timing as needed */
@@ -84,6 +90,7 @@ body{
 #check{
     display: none;
 }
+
 .btn_one{
     position: absolute;
     display: none;
@@ -114,8 +121,9 @@ body{
     flex-direction: column;
 }
 .drop div:hover{
-    background-color: #fed700;
-    color: white;
+    background-color: #ffd900;
+    
+
 }
 
 @media screen and (max-width:650px){
@@ -167,7 +175,8 @@ body{
 }
 .data p{
     font-size: 16px;
-    line-height: 24px;
+    margin:0.5rem;
+    margin-bottom: 3rem;
 }
 @keyframes mymove {
     from {left: 0px;}
@@ -258,9 +267,9 @@ body{
   }
   .edu-cont{
     width: 45%;
-  
-    padding: 15px;
-    height: 380px;
+    display: inline-block;
+    padding: 10px;
+    height: 342px
   }
   .edu-cont div{
     margin-bottom: 35px;
