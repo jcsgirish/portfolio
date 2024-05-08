@@ -487,3 +487,17 @@ body{
     border: 1px solid #fed700;
    color: #fed700;
 } */
+
+.Contact li{
+    margin-top: 2rem;
+    border: 0.1rem solid rgb(46, 45, 44);
+    border-radius: 1rem;
+    padding-top: 1rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: x-large;
+    
+}
